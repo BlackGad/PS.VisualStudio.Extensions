@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>PS Control</Name>
+    <Description>Custom control template</Description>
+    <Icon>CustomControl.ico</Icon>
+    <TemplateID>6d7f5685-f146-46a6-9420-7e6fefa7b62c</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Control</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem TargetFileName="$safeitemname$.xaml.cs" ReplaceParameters="true">CustomControl.xaml.cs</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$safeitemname$.xaml" ReplaceParameters="true">CustomControl.xaml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

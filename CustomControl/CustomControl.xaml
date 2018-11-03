@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:$rootnamespace$">
+
+    <ControlTemplate x:Key="{x:Static controls:$safeitemname$+Resource.ControlTemplate}" TargetType="controls:$safeitemname$">
+        <Grid Background="{TemplateBinding Background}" />
+    </ControlTemplate>
+
+    <Style x:Key="{x:Static controls:$safeitemname$+Resource.ControlStyle}" TargetType="controls:$safeitemname$">
+        <Setter Property="Template" Value="{StaticResource {x:Static controls:$safeitemname$+Resource.ControlTemplate}}" />
+        <Setter Property="Background" Value="RoyalBlue" />
+        <Setter Property="MinWidth" Value="100" />
+        <Setter Property="MinHeight" Value="100" />
+    </Style>
+
+</ResourceDictionary>
