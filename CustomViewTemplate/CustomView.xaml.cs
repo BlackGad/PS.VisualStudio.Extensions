@@ -15,7 +15,6 @@
 
         #region Properties
 
-        [DependencyResolve]
         public $safeitemname$Model ViewModel
         {
             get { return DataContext as $safeitemname$Model; }
