@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="MVVMTemplates.850636c8-21d5-4d86-a35d-0622ddc9c286" Version="1.0" Language="en-US" Publisher="Shkolka Vladimir" />
+        <Identity Id="MVVMTemplates.850636c8-21d5-4d86-a35d-0622ddc9c286" Version="1.1" Language="en-US" Publisher="Shkolka Vladimir" />
         <DisplayName>MVVM Templates</DisplayName>
         <Description xml:space="preserve">Contains useful PS.Presentation item templates</Description>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -17,6 +17,6 @@
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:TargetPath="|CustomViewWithPayloadTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
