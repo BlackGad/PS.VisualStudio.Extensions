@@ -20,7 +20,6 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
